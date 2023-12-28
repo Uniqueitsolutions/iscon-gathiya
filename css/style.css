@@ -276,14 +276,8 @@ button:active {
     --shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
-body::-webkit-scrollbar {
-    width: 10px;
-  }
-  body::-webkit-scrollbar-track{background-color: var(--theme-secondary);}
-   
-  body::-webkit-scrollbar-thumb {
-    background-color: var(--theme-primary);
-  }
+
+ 
   /* html{scroll-behavior: smooth;} */
 
   @keyframes bouncing {
@@ -337,11 +331,11 @@ body::-webkit-scrollbar {
         100% { transform: translateX(0); }
       }
 
-.float_animation{ animation: floating 2s linear 0s infinite;}
-.bouncing_animation{animation: bouncing 1.5s linear 2s infinite alternate;}
-.bouncing_bottom{ animation: bounce-in-top 1.5s linear 0s 1 ;}
-.bouncing_top{ animation: bounce-in-bottom 1.5s linear 0s 1 ;}
-.img_bouncing{ animation: img-bouncing 2s linear 1s infinite;}
+.float_animation{ animation: floating 3s ease-in 0s infinite ;}
+.bouncing_animation{animation: bouncing 2.5s linear 2s infinite alternate;}
+.bouncing_bottom{ animation: bounce-in-top 2.5s linear 0s 1 ;}
+.bouncing_top{ animation: bounce-in-bottom 2.5s linear 0s 1 ;}
+.img_bouncing{ animation: img-bouncing 3s linear 1s infinite;}
 
 .coming_from_left{ animation: bounce-in-left 1.5s linear 0s 1 ;}
 .coming_from_right{ animation: bounce-in-right 1.5s linear 0s 1 ;}
@@ -444,13 +438,13 @@ small{font-size: 16px; display: inline-block;}
 .slick-prev.slick-arrow{left: 100px;}
 .slick-next.slick-arrow{right: 100px;}
 .slick-prev.slick-arrow::after{transform:translate(-50%,-50%)  rotate(180deg); }
-button.slick-arrow:hover{background-color: var(--theme-primary);}
-button.slick-arrow:hover::after{ background: url(../images/white-arrow.png) center no-repeat;background-size: 100%;}
+button.slick-arrow:hover{background-color:#ffb310d1;}
+button.slick-arrow:hover::after{ background: url(../images/black-arrow.png) center no-repeat;background-size: 100%;}
 
 .about_us_left{width: 50%; margin: 0px 100px 20px 0px; position: relative;}
 .about_us_left::after{position: absolute; top: 0px; left: 0px; content: ''; background: url(../images/painted-bg.png) center no-repeat; width:100%;aspect-ratio: 1; background-size: cover; z-index: -1; opacity: .10;}
 .about_us_right .title{text-align: left;overflow: hidden;}
-.card_1{transform: rotate(12deg); background-color: #fff;box-shadow: rgba(149, 157, 165, 0.5) 0px 0px 24px; width: 65%; aspect-ratio: 1/1.05;padding: 10px; transition: 0.2s ease;}
+.card_1{ background-color: #fff;box-shadow: rgba(149, 157, 165, 0.5) 0px 0px 24px; width: 100%; aspect-ratio: 1/1.05;padding: 10px; transition: 0.2s ease;}
 .card_1 .card_images{ width: 100%; height: 100%;}
 .card_1 .card_txt{text-align: center; padding: 20px 0px;}
 .card_1 .card_txt h5{font-size: 27px; }
