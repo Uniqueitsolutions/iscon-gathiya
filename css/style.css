@@ -100,6 +100,37 @@
     -o-box-sizing:border-box;
     -ms-box-sizing:border-box;
 }
+::selection {
+    color: #fff; /* Text color for selected text */
+    background-color: #ff0000; /* Background color for selected text */
+}
+  
+/* Customize scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    border-radius: 4px; /* Rounded corners for the track */
+}
+
+/* Customize scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+/* Customize scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #ffe735;
+    border: 0.5px solid #b4a42b;
+    border-radius: 7px; /* Rounded corners for the thumb */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}
+
+/* Change thumb styles on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #f0c300; /* Change color on hover */
+    border-color: #8b7e1b; /* Change border color on hover */
+}
+
 body {
     font-family: 'Saira';
     font-size:14px;
@@ -332,7 +363,7 @@ button:active {
       }
 
 .float_animation{ animation: floating 3s ease-in 0s infinite ;}
-.bouncing_animation{animation: bouncing 2.5s linear 2s infinite alternate;}
+.bouncing_animation{animation: bouncing 3.5s linear 2s infinite alternate;}
 .bouncing_bottom{ animation: bounce-in-top 2.5s linear 0s 1 ;}
 .bouncing_top{ animation: bounce-in-bottom 2.5s linear 0s 1 ;}
 .img_bouncing{ animation: img-bouncing 3s linear 1s infinite;}
