@@ -829,3 +829,23 @@ textarea{height: 180px;}
 .gm-style .gm-style-iw-c p{font-family: 'Saira';padding-bottom: 10px;}
 .gm-style .gm-style-iw-c p strong{color: #252525;padding-right: 5px;}
 .gm-style .gm-style-iw-c .gm-style-iw-d{overflow: inherit !important;}
+
+.our_mission_img {
+    position: relative;
+    overflow: hidden;
+}
+
+.our_mission_img img {
+    animation: rotateAnimation 2s forwards; /* Adjust the animation duration as needed */
+    transition: transform 0.3s ease-in-out;
+}
+
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
