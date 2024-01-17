@@ -679,7 +679,7 @@ textarea{height: 180px;}
 .our_menu.about_page_about{overflow: inherit;}
 
 
-.awards_col_inr{padding: 30px; border-radius: 10px; box-shadow: var(--shadow); text-align: center;}
+.awards_col_inr{padding: 30px; border-radius: 10px; box-shadow: var(--shadow); text-align: center; border: 1px solid yellow;}
 .awards_img img {max-height: 204px;}
 .our_journey_branches{display: flex; flex-wrap: wrap;}
 .journey_col{width:9.7%;margin: 0px -10px 0px;}
@@ -848,4 +848,8 @@ textarea{height: 180px;}
     100% {
         transform: rotate(360deg);
     }
+}
+
+.border-y{
+    border: 1px dashed yellow;
 }
