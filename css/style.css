@@ -835,7 +835,7 @@ textarea{height: 180px;}
     overflow: hidden;
 }
 
-.our_mission_img img {
+.our_mission_img img:hover {
     animation: rotateAnimation 2s forwards; /* Adjust the animation duration as needed */
     transition: transform 0.3s ease-in-out;
 }
