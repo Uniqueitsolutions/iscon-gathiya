@@ -834,10 +834,7 @@ textarea{height: 180px;}
     position: relative;
     overflow: hidden;
 }
-.our_mission_img img {
-    animation: rotateAnimation 2s forwards; /* Adjust the animation duration as needed */
-    transition: transform 0.3s ease-in-out;
-}
+
 .our_mission_img img:hover {
     animation: rotateAnimation 2s forwards; /* Adjust the animation duration as needed */
     transition: transform 0.3s ease-in-out;

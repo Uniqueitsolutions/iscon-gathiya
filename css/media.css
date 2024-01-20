@@ -44,7 +44,7 @@
     .achivement_counter ul li{padding: 0px 20px;}
     .achivement_counter ul li h3{font-size: 36px;line-height: 40px;}
     .achivement_counter ul li h4{line-height: 30px;}
-	.journey_col {width: 8.33%;margin: 0px;}
+	.journey_col {width: 7.33%;margin: 0px;}
     .journey_title h4 { font-size: 16px;width: 97px;}
     .our_journey_year_otr {padding: 0px;}
     .our_journey_branches .journey_col:nth-child(even) {margin-top: 160px;}
@@ -490,7 +490,7 @@
     .about_achivement_inr{flex-direction: column-reverse;}
     .what_we_belive_col_inr{padding: 20px;}
 
-    .journey_col{width: 8.33%;margin: 0;}
+    .journey_col{width: 7.33%;margin: 0;}
     .journey_title h4 { font-size: 14px;width: 90px;}
     .our_journey_year_otr{padding: 0px;}
     .journey_year h3{font-size: 15px;}
