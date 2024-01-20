@@ -858,10 +858,11 @@ textarea{height: 180px;}
     padding: 20px;
 }
 .download::before{
-    left: 11rem;
+    left: 12rem;
     content: "";
     position: absolute;
-    top: 10px;
+    bottom: 10px;
+    /* background-color: #000; */
     background: url(../images/gif-arrow.png) center no-repeat;
     width: 95px;
     height: 22px;
