@@ -682,7 +682,7 @@ textarea{height: 180px;}
 .awards_col_inr{padding: 30px; border-radius: 10px; box-shadow: var(--shadow); text-align: center; border: 1px solid yellow;}
 .awards_img img {max-height: 204px;}
 .our_journey_branches{display: flex; flex-wrap: wrap;}
-.journey_col{width:9.7%;margin: 0px -10px 0px;}
+.journey_col{width:8.7%;margin: 0px -10px 0px;}
 .journey_col_inr{text-align: center; display: flex; flex-direction: column; gap: 15px;}
 .journey_col_inr:hover .our_journey_year_otr::before{transform: rotate(315deg);}
 .our_journey_year_otr{ position: relative;  border-radius: 50%;  width: 100%; height: 100%; padding: 20px;}
@@ -856,4 +856,15 @@ textarea{height: 180px;}
 .review_page .reviews_slider .reviews_card_artical{
     width: 63.33%;
     padding: 20px;
+}
+.download::before{
+    left: 11rem;
+    content: "";
+    position: absolute;
+    top: 10px;
+    background: url(../images/gif-arrow.png) center no-repeat;
+    width: 95px;
+    height: 22px;
+    transition: 0.5s;
+    display: block;
 }
