@@ -856,3 +856,7 @@ textarea{height: 180px;}
 .border-y{
     border: 1px dashed yellow;
 }
+.review_page .reviews_slider .reviews_card_artical{
+    width: 63.33%;
+    padding: 20px;
+}
