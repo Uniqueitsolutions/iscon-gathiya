@@ -649,8 +649,12 @@ textarea{height: 180px;}
 .footer .social_icons ul li.printrest a:hover::after{filter: invert(1);}
 .footer .social_icons ul li.google a:hover::after{filter: invert(1);}
 .copyright p{color: #252525; font-weight: 600;}
+.customer_care svg{color: #f00000; font-weight: 500;margin-right: .5rem;margin-left: .5rem;}
+.customer_care a{color: #000000; font-weight: 500;}
+.customer_care p{display: flex;align-items: center;justify-content: center;}
 .footer_bottom{position: relative;z-index: 1;}
-.footer_bottom .copyright{display: none;}
+.footer_bottom .copyright{display: block;text-align: center;}
+.footer_bottom .copyright span{color: #f00000 ;}
 
 .slick-dots{display: flex;align-items: center;justify-content: center;margin-top: 15px;gap: 5px;}
 .slick-dots li button{width: 10px;height: 10px;padding: 0;font-size: 0;border-radius: 50%;}
