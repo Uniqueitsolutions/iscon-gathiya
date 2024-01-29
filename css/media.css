@@ -118,6 +118,7 @@
 	.our_menu_inr ul li::before{background-size: contain; width: 70px;}
 	.our_menu_inr ul li{margin-bottom: 30px; font-size: 22px;}
 	.reviews_card_inr::before{width: 55px;}
+	.reviews_card_artical::before{width: 55px;}
 	.a_btn a{padding: 12px 35px;}
 	.news_card_txt > *{margin-bottom: 10px;}
 	.row.branches_row{margin: 0px -10px;}
@@ -262,6 +263,7 @@
 	.find_us_otr .a_btn{margin-top: 35px;}
 	.menu_list ul{gap: 30px;}
 	.review_slider_home_page .reviews_card_inr{min-height: 400px;}
+	.review_slider_home_page .reviews_card_artical{min-height: 400px;}
 	.contact_txt a{font-size: 17px;}
 	.mb_child_30 > *{margin-bottom: 17px;}
 
@@ -444,9 +446,11 @@
 	.review_slider_home_page .reviews_slider .slick-next.slick-arrow{right: -60px;}
 	.review_slider_home_page .reviews_slider .slick-prev.slick-arrow{left: -60px;}
 	.reviews_card_inr::before{width: 45px;}
+	.reviews_card_artical::before{width: 45px;}
 	.review_slider_home_page .reviews_slider .slick-arrow{width: 45px; height: 45px;}
 	.review_slider_home_page .reviews_slider .slick-arrow::after{width: 9px; height: 16px;}
 	.review_slider_home_page .reviews_card_inr{min-height: 310px;}
+	.review_slider_home_page .reviews_card_artical{min-height: 310px;}
 	.about_us_right p{margin-bottom: 15px;}
 	.mb_child_30 > *{margin-bottom: 15px;}
 
@@ -892,6 +896,7 @@
     .review_page .reviews_slider .reviews_card{padding: 5px 0px;width: 100%;}
     .customer_name h5{font-size: 15px;line-height: 18px;}
     .reviews_card_inr::before{right: 10px;width: 35px;}
+    .reviews_card_artical::before{right: 10px;width: 35px;}
     .reviews_card_inr p {font-size: 14px;line-height: 21px;}
     .google_icon{width: 35px;height: 35px;}
     .user_avatar{width: 35px;}
