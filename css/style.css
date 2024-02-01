@@ -878,3 +878,7 @@ textarea{height: 180px;}
 .eapps-widget-toolbar{
     display: none !important;
 }
+.eapps-google-reviews-6552cc55-7a24-469d-81ee-f62a4225fbd6-custom-css-hook .WidgetBackground__Content-sc-1ho7q3r-2 > a{
+    clip-path: circle(0) !important;
+	    max-height: 0px !important;
+}
