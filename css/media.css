@@ -680,6 +680,7 @@
 
     .review_page .reviews_slider{margin: 0px -5px;}
     .review_page .reviews_slider .reviews_card{padding: 5px;width: 50%;}
+    /* .review_page .reviews_slider .reviews_card_artical{padding: 5px;width: 100%;} */
     .customer_name h5{font-size: 16px;line-height: 20px;}
     .reviews_card_inr::before{right: 10px;width: 40px;}
     .reviews_card_inr p {font-size: 15px;line-height: 23px;}
@@ -894,6 +895,7 @@
 
     .review_page .reviews_slider{margin: 0px;}
     .review_page .reviews_slider .reviews_card{padding: 5px 0px;width: 100%;}
+    .review_page .reviews_slider .reviews_card_artical{padding: 5px 0px;width: 100%;}
     .customer_name h5{font-size: 15px;line-height: 18px;}
     .reviews_card_inr::before{right: 10px;width: 35px;}
     .reviews_card_artical::before{right: 10px;width: 35px;}
