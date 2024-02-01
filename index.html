@@ -1223,6 +1223,15 @@
     <script type="text/javascript" src="../../codepen/slider/slick-animation.min.js"></script>
   
         <script>
+			var aTag = document.querySelector('.WidgetBackground__Content-sc-1ho7q3r-2 a');
+
+// Check if the <a> tag exists
+if (aTag) {
+    // Hide the <a> tag by setting its display style property to "none"
+    aTag.style.display = 'none';
+	console.log(41);
+}
+
         $('.banner_slider').slick({
             dots: false,
             arrows:true,
