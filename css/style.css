@@ -876,5 +876,5 @@ textarea{height: 180px;}
     transform: scaleX(-1);
 }
 .eapps-widget-toolbar{
-    display: none;
+    display: none !important;
 }
